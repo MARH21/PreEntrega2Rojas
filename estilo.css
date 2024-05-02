@@ -1,0 +1,73 @@
+.navbar {
+    background-image: linear-gradient(to right, #0e0d0e, rgb(235, 42, 35));
+  }
+
+  body{
+    background: linear-gradient(to right, #525353, #e8e9ec);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #252525;
+    padding: 20px;
+  }
+
+  *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+
+  .container-carrusel{
+    position: relative;
+     width: 500px;
+     height: 300px;
+     background-color: antiquewhite;
+     box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0,66);
+     overflow: hidden;
+  }
+
+  .carrusel {
+    width: 100%;
+    height: 100%;
+    display: flex;
+  }
+
+  .slider-section{
+    width: calc(100% / 1);
+    height: 100%;
+  }
+
+  .slider-section img{
+    width: 500px;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .btn-left,.btn-right{
+    display: flex;
+    position: absolute;
+    top: 50%;
+    font-size: 1.5rem;
+    background-color: transparent;
+    border-radius: 58%;
+    padding: 5px;
+    font-weight: 600;
+    cursor: pointer;
+    color: aquamarine;
+    transform: translate(0, -50%);
+    transition: .5s ease;
+    user-select: none;
+  }
+
+  .btn-left:hover, .btn-right:hover{
+    background-color: yellow;
+    color: violet;
+  }
+
+  .btn-left{
+    left: 10px;
+  }
+
+  .btn-right {
+    right: 18px;
+  }
