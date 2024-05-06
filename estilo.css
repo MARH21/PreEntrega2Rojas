@@ -7,15 +7,16 @@
   }
 
   h1{
+   text-align: center;
     font-family: "Poppins", sans-serif;
     font-weight: 600;
     font-style: normal;
     color: rgb(0, 0, 0)
   }
- 
 
-#gallery {
-   width: 80%;
+  /* Carrusel 1 */
+  #gallery {
+   width: 70%;
    margin: auto;
    overflow: hidden;
 }
@@ -28,21 +29,18 @@
 
 .gallery-item {
    min-width: 90%;
-   padding-right: 30px;
-
+   padding-left: 20px;
 }
 
 .gallery-item img {
-   width: 100%;
-
+   width: 80%;
 }
 
-/* Navegación del Slider */
 .gallery-navigation {
    display: flex;
    justify-content: space-between;
    position: relative;
-   top: -150px;
+   top: -190px;
 }
 
 .nav-button {
@@ -57,3 +55,72 @@
 .nav-button:hover {
 background-color: #000000;
 }
+
+/* carrusel 2 */
+.carousel-container {
+   width: 100%;
+   overflow: hidden; 
+   padding-top: 100px;
+}
+
+.carousel {
+   width: 50%;
+   display: flex;
+   transition: transform 0.9s ease-in-out;
+   margin: auto;
+   
+}
+
+.carousel img {
+   width: 25%;
+   margin-right: 60px;
+   border-radius: 50%; 
+}
+
+.gallery-navigation2 {
+   display: flex;
+   justify-content: center;
+}
+
+.nav-button2 {
+   background-color: #b1287c;
+   color: white;
+   border: none;
+   padding: 10px 20px;
+   cursor: pointer;
+   border-radius: 5px;
+   margin-right: 100px;
+   margin-left: 100px;
+}
+
+/* Trivia*/
+
+.question-container {
+   width: 80%;
+   margin: 0 auto;
+   text-align: center;
+   padding-top: 50px;
+ }
+
+ .options {
+   display: flex;
+   justify-content: center;
+   margin-top: 20px;
+ }
+
+ .option {
+   cursor: pointer;
+   margin: 0 10px;
+   padding: 10px 20px;
+   background-color: #f0f0f0;
+   border: 1px solid #ccc;
+   border-radius: 5px;
+ }
+
+ .option:hover {
+   background-color: #e0e0e0;
+ }
+
+ .result {
+   margin-top: 20px;
+ }
