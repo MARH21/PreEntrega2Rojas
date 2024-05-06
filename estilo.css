@@ -6,7 +6,7 @@
     background: linear-gradient(to right, #da94832a, #fc947586);
   }
 
-  h1{
+  .texto{
    text-align: center;
     font-family: "Poppins", sans-serif;
     font-weight: 600;
