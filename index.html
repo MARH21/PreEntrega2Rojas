@@ -9,136 +9,130 @@
 </head>
 <body>
     <header>
-        <nav class="navbar navbar-expand-lg">
-            <div class="container-fluid">
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-            </div>
-        </nav>
     </header>
-
     <h1 class="texto">Formula 1: 2024</h1>
 
-    <h1 class="texto">Calculadora de Próxima Carrera de Fórmula 1</h1>
-    <p>Selecciona una fecha para calcular la próxima carrera:</p>
-    <select id="fechas">
-        <option value="May. 5">Crypto.com Miami GP - May. 5</option>
-        <option value="May. 19">MSC Cruises Emilia Romagna GP - May. 19</option>
-        <option value="May. 26">GP de Mónaco - May. 26</option>
-        <option value="Jun. 9">AWS Canadian GP - Jun. 9</option>
-        <option value="Jun. 23">Aramco Spanish GP - Jun. 23</option>
-        <option value="Jun. 30">Qatar Airways Austrian GP - Jun. 30</option>
-        <option value="Jul. 7">Qatar Airways British GP - Jul. 7</option>
-        <option value="Jul. 28">Rolex Belgian GP - Jul. 28</option>
-        <option value="Ago. 25">Heineken Dutch GP - Ago. 25</option>
-        <option value="Sep. 1">Pirelli Italian GP - Sep. 1</option>
-        <option value="Sep. 15">Qatar Airways Azerbaijan GP - Sep. 15</option>
-        <option value="Sep. 22">Singapore Airlines Singapore GP - Sep. 22</option>
-        <option value="Oct. 20">Pirelli United States GP - Oct. 20</option>
-        <option value="Oct. 27">Mexico City GP - Oct. 27</option>
-        <option value="Nov. 3">Lenovo São Paulo GP - Nov. 3</option>
-        <option value="Nov. 24">Heineken Las Vegas GP - Nov. 24</option>
-        <option value="Dic. 1">Qatar Airways Qatar GP - Dic. 1</option>
-        <option value="Dic. 8">Etihad Airways Abu Dhabi GP - Dic. 8</option>
-    </select>
-    <button onclick="calcularProximaCarrera()">Calcular</button>
-    <p id="resultado"></p>
+    <h1 class="texto">Calculadora de Próxima Carrera</h1>
+    <div class="fechas">
+        <p>Selecciona una fecha para calcular la próxima carrera:</p>
+        <select class="fechas" id="fechas">
+            <option value="May. 5">Crypto.com Miami GP - May. 5</option>
+            <option value="May. 19">MSC Cruises Emilia Romagna GP - May. 19</option>
+            <option value="May. 26">GP de Mónaco - May. 26</option>
+            <option value="Jun. 9">AWS Canadian GP - Jun. 9</option>
+            <option value="Jun. 23">Aramco Spanish GP - Jun. 23</option>
+            <option value="Jun. 30">Qatar Airways Austrian GP - Jun. 30</option>
+            <option value="Jul. 7">Qatar Airways British GP - Jul. 7</option>
+            <option value="Jul. 28">Rolex Belgian GP - Jul. 28</option>
+            <option value="Ago. 25">Heineken Dutch GP - Ago. 25</option>
+            <option value="Sep. 1">Pirelli Italian GP - Sep. 1</option>
+            <option value="Sep. 15">Qatar Airways Azerbaijan GP - Sep. 15</option>
+            <option value="Sep. 22">Singapore Airlines Singapore GP - Sep. 22</option>
+            <option value="Oct. 20">Pirelli United States GP - Oct. 20</option>
+            <option value="Oct. 27">Mexico City GP - Oct. 27</option>
+            <option value="Nov. 3">Lenovo São Paulo GP - Nov. 3</option>
+            <option value="Nov. 24">Heineken Las Vegas GP - Nov. 24</option>
+            <option value="Dic. 1">Qatar Airways Qatar GP - Dic. 1</option>
+            <option value="Dic. 8">Etihad Airways Abu Dhabi GP - Dic. 8</option>
+        </select>
+        <button class="button2" onclick="calcularProximaCarrera()">Calcular</button>
+        <p id="resultado"></p>
+    </div>
 
     <section id="gallery">
-        <h1 class="texto">circuitos 2024</h1>
+        <h1 class="texto">Circuitos 2024</h1>
         <div class="gallery-container">
             <figure class="gallery-item">
-                <img src="imagenes de circuitos/Abu Dhabi.png" alt="Imagen 1">
                 <h2 class="texto">Abu Dhabi</h2>
+                <img src="imagenes de circuitos/Abu Dhabi.png" alt="Imagen 1">
             </figure>
             <figure class="gallery-item">
-                <img src="imagenes de circuitos/Australia.png" alt="Imagen 2">
                 <h2 class="texto">Australia</h2>
+                <img src="imagenes de circuitos/Australia.png" alt="Imagen 2">
             </figure>
             <figure class="gallery-item">
-                <img src="imagenes de circuitos/Austria.png" alt="Imagen 3">
                 <h2 class="texto">Austria</h2>
+                <img src="imagenes de circuitos/Austria.png" alt="Imagen 3">
             </figure>
             <figure class="gallery-item">
-                <img src="imagenes de circuitos/Bahrain.png" alt="Imagen 4">
                 <h2 class="texto">Bahrain</h2>
+                <img src="imagenes de circuitos/Bahrain.png" alt="Imagen 4">
             </figure>
             <figure class="gallery-item">
-                <img src="imagenes de circuitos/Baku.png" alt="Imagen 5">
                 <h2 class="texto">Baku</h2>
+                <img src="imagenes de circuitos/Baku.png" alt="Imagen 5">
             </figure>
             <figure class="gallery-item">
-                <img src="imagenes de circuitos/Barcelona.png" alt="Imagen 6">
                 <h2 class="texto">Barcelona</h2>
+                <img src="imagenes de circuitos/Barcelona.png" alt="Imagen 6">
             </figure>
             <figure class="gallery-item">
-                <img src="imagenes de circuitos/Canada.png" alt="Imagen 7">
                 <h2 class="texto">Canada</h2>
+                <img src="imagenes de circuitos/Canada.png" alt="Imagen 7">
             </figure>
             <figure class="gallery-item">
-                <img src="imagenes de circuitos/hungria.png" alt="Imagen 5">
                 <h2 class="texto">Hungria</h2>
+                <img src="imagenes de circuitos/hungria.png" alt="Imagen 5">
             </figure>
             <figure class="gallery-item">
-                <img src="imagenes de circuitos/Imola.png" alt="Imagen 6">
                 <h2 class="texto">Imola</h2>
+                <img src="imagenes de circuitos/Imola.png" alt="Imagen 6">
             </figure>
             <figure class="gallery-item">
-                <img src="imagenes de circuitos/Jeddah.png" alt="Imagen 7">
                 <h2 class="texto">Jeddah</h2>
+                <img src="imagenes de circuitos/Jeddah.png" alt="Imagen 7">
             </figure>
             <figure class="gallery-item">
-                <img src="imagenes de circuitos/Las Vegas.png" alt="Imagen 6">
                 <h2 class="texto">Las Vegas</h2>
+                <img src="imagenes de circuitos/Las Vegas.png" alt="Imagen 6">
             </figure>
             <figure class="gallery-item">
-                <img src="imagenes de circuitos/Mexico.png" alt="Imagen 7">
                 <h2 class="texto">Mexico</h2>
+                <img src="imagenes de circuitos/Mexico.png" alt="Imagen 7">
             </figure>
             <figure class="gallery-item">
-                <img src="imagenes de circuitos/Miami.png" alt="Imagen 5">
                 <h2 class="texto">Miami</h2>
+                <img src="imagenes de circuitos/Miami.png" alt="Imagen 5">
             </figure>
             <figure class="gallery-item">
-                <img src="imagenes de circuitos/Monaco.png" alt="Imagen 6">
                 <h2 class="texto">Monaco</h2>
+                <img src="imagenes de circuitos/Monaco.png" alt="Imagen 6">
             </figure>
             <figure class="gallery-item">
-                <img src="imagenes de circuitos/Monza.png" alt="Imagen 7">
                 <h2 class="texto">Monza</h2>
+                <img src="imagenes de circuitos/Monza.png" alt="Imagen 7">
             </figure>
             <figure class="gallery-item">
-                <img src="imagenes de circuitos/Netherlands.png" alt="Imagen 6">
                 <h2 class="texto">Netherlands</h2>
+                <img src="imagenes de circuitos/Netherlands.png" alt="Imagen 6">
             </figure>
             <figure class="gallery-item">
-                <img src="imagenes de circuitos/Qatar.png" alt="Imagen 7">
                 <h2 class="texto">Qatar</h2>
+                <img src="imagenes de circuitos/Qatar.png" alt="Imagen 7">
             </figure>
             <figure class="gallery-item">
-                <img src="imagenes de circuitos/Shanghai.png" alt="Imagen 5">
                 <h2 class="texto">Shanghai</h2>
+                <img src="imagenes de circuitos/Shanghai.png" alt="Imagen 5">
             </figure>
             <figure class="gallery-item">
-                <img src="imagenes de circuitos/Silverstone.png" alt="Imagen 6">
                 <h2 class="texto">Silverstone</h2>
+                <img src="imagenes de circuitos/Silverstone.png" alt="Imagen 6">
             </figure>
             <figure class="gallery-item">
-                <img src="imagenes de circuitos/Singapore.png" alt="Imagen 7">
                 <h2 class="texto">Singapore</h2>
+                <img src="imagenes de circuitos/Singapore.png" alt="Imagen 7">
             </figure>
             <figure class="gallery-item">
-                <img src="imagenes de circuitos/Spa.png" alt="Imagen 6">
                 <h2 class="texto">Spa</h2>
+                <img src="imagenes de circuitos/Spa.png" alt="Imagen 6">
             </figure>
             <figure class="gallery-item">
-                <img src="imagenes de circuitos/Suzuka.png" alt="Imagen 5">
                 <h2 class="texto">Suzuka</h2>
+                <img src="imagenes de circuitos/Suzuka.png" alt="Imagen 5">
             </figure>
             <figure class="gallery-item">
-                <img src="imagenes de circuitos/São Paulo.png" alt="Imagen 6">
                 <h2 class="texto">Sao Paulo</h2>
+                <img src="imagenes de circuitos/São Paulo.png" alt="Imagen 6">
             </figure>
         </div>
         <nav class="gallery-navigation">
@@ -146,12 +140,6 @@
             <button class="nav-button next-button">></button>
         </nav>
     </section> 
-
-    <div class="question-container">
-        <div id="question"></div>
-        <div class="options" id="options"></div>
-        <div class="result" id="result"></div>
-      </div>
 
     <div class="carousel-container">
         <h1 class="texto">Parrilla 2024</h1>
@@ -172,6 +160,13 @@
         <button class="nav-button2 prev-button" onclick="scrollImages(-1)">&#10094;</button>
         <button class="nav-button2 prev-button2" onclick="scrollImages(1)">&#10095;</button>
     </nav>
+
+    <div class="question-container">
+        <h1 class="texto">¿Quieres jugar una pequeña trivia?</h1>
+        <div id="question"></div>
+        <div class="options" id="options"></div>
+        <div class="result" id="result"></div>
+      </div>
 
     <script src="Calculador de carrera.js"></script>
 </body>

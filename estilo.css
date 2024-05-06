@@ -14,6 +14,26 @@
     color: rgb(0, 0, 0)
   }
 
+    /* Calculadora */
+
+  .button2{
+   background-color: #222121;
+   color: rgb(255, 255, 255);
+   cursor: pointer;
+   border-radius: 20px;
+   border: none;
+   padding: 8px 10px;
+  }
+
+  .button2:hover {
+   background-color: #eb4242;
+   }
+
+   .fechas{
+      padding: 4px 2px;
+      text-align: center;
+   }
+
   /* Carrusel 1 */
   #gallery {
    width: 70%;
@@ -23,7 +43,7 @@
 
 .gallery-container {
    display: flex;
-   transition: transform 0.5s ease-in-out;
+   transition: transform 0.9s ease-in-out;
   
 }
 
@@ -40,20 +60,21 @@
    display: flex;
    justify-content: space-between;
    position: relative;
-   top: -190px;
+  
 }
 
 .nav-button {
-   background-color: #df4722;
+   background-color: #222121;
    color: white;
    border: none;
    padding: 10px 20px;
    cursor: pointer;
    border-radius: 5px;
+   
 }
 
 .nav-button:hover {
-background-color: #000000;
+   background-color: #eb4242;
 }
 
 /* carrusel 2 */
@@ -67,7 +88,7 @@ background-color: #000000;
    width: 50%;
    display: flex;
    transition: transform 0.9s ease-in-out;
-   margin: auto;
+ 
    
 }
 
@@ -83,7 +104,7 @@ background-color: #000000;
 }
 
 .nav-button2 {
-   background-color: #b1287c;
+   background-color: #222121;
    color: white;
    border: none;
    padding: 10px 20px;
@@ -91,6 +112,11 @@ background-color: #000000;
    border-radius: 5px;
    margin-right: 100px;
    margin-left: 100px;
+   margin-top: 40px;
+}
+
+.nav-button2:hover{
+   background-color: #eb4242;
 }
 
 /* Trivia*/
@@ -111,14 +137,15 @@ background-color: #000000;
  .option {
    cursor: pointer;
    margin: 0 10px;
+   background-color: #222121;
+   color: white;
+   border: none;
    padding: 10px 20px;
-   background-color: #f0f0f0;
-   border: 1px solid #ccc;
    border-radius: 5px;
  }
 
  .option:hover {
-   background-color: #e0e0e0;
+   background-color: #eb4242;
  }
 
  .result {
